@@ -1,6 +1,6 @@
 <template>
     <section class="titulo">
-            <img src="img/logopasterely -chico.png" alt="">
+            <img src="../assets/logopasterely-chico.png" alt="">
         </section>
         <section class="informacion">
             <p> Somos una empresa formada desde hace 2 años, al servicio de todos los que quieren deleitar de nuestros esquisitos pasteles </p> 

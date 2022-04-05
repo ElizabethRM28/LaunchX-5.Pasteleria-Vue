@@ -1,6 +1,6 @@
 <template>
      <section class="titulo">
-            <img src="../assets/logopasterely.png " alt="">
+            <img src="../assets/logopasterely-chico.png" alt="">
     </section>
     <section class="panes">
         <H2>Sabores de pan</H2>
@@ -72,9 +72,9 @@ export default {
     font-size: 16px;
     color: #fff;
     width: 33%;
-    height: 250px;
-    padding: 30px;
-    float: left;
+    height: 300px;
+    /*padding: 30px;
+    float: left; */
     background-color: #80A1D4;
     display: inline-block;
     overflow: hidden;
@@ -84,9 +84,9 @@ export default {
     font-size: 16px;
     color: #fff;
     width: 55%;
-    height: 500px;
-    padding: 30px;
-    float: left;
+    height: 550px;
+    /*padding: 30px;
+    float: left; */
     background-color: #C0B9DD;
     display: inline-block;
     overflow: hidden;
@@ -96,9 +96,9 @@ export default {
     font-size: 16px;
     color: #fff;
     width: 45%;
-    height: 500px;
-    padding: 30px;
-    float: left;
+    height: 550px;
+    /*padding: 30px;
+    float: left; */
     background-color: #C0B9DD;
     display: inline-block;
     overflow: hidden;
@@ -108,9 +108,9 @@ export default {
     font-size: 16px;
     color: #fff;
     width: 34%;
-    height: 250px;
-    padding: 30px;
-    float: left;
+    height: 300px;
+    /*padding: 30px;
+    float: left; */
     background-color: #80A1D4;
     display: inline-block;
     overflow: hidden;
@@ -120,9 +120,9 @@ export default {
     font-size: 16px;
     color: #fff;
     width: 33%;
-    height: 250px;
-    padding: 30px;
-    float: left;
+    height: 300px;
+    /*padding: 30px;
+    float: left; */
     background-color: #80A1D4;
     display: inline-block;
     overflow: hidden;

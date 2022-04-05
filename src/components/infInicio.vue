@@ -1,7 +1,7 @@
 <template>
     <div>
         <section class="titulo">
-            <img src="img/logopasterely.png" alt="">
+            <img src="../assets/logopasterely.png" alt="">
         </section>
         <section class="informacion">
             <h2>Contactanos</h2>
@@ -21,7 +21,7 @@
              <br>
              <section class="pedido">
                 <h3>Haz tu pedido abajo</h3>
-                <router-link to="/pedido" class="btn-a">Pedido</router-link>  
+                <router-link to="/pedido" class="btn-a" >Pedido</router-link>  
             </section>
          </section>
          <section class="texto">
@@ -42,12 +42,12 @@ export default {
 
 <style scoped>
     .informacion {
-        font-size: 16px;
+        font-size: 18px;
         color: #fff;
         width: 50%;
         height: 330px;
-        padding: 30px;
-        float: left;
+        /*padding: 30px;
+        float: left; */
         background-color: #75c9c8;
         display: inline-block;
         overflow: hidden;
@@ -58,8 +58,8 @@ export default {
         color: #fff;
         width: 50%;
         height: 330px;
-        padding: 30px;
-        float: left;
+        /*padding: 30px;
+        float: left;*/
         background-color: #75c9c8;
         display: inline-block;
         overflow: hidden;
@@ -74,8 +74,8 @@ export default {
     color: #fff;
 }
 .btn-a {
-    /*display: inline-block;
-    text-decoration: none; */
+    display: inline-block;
+    text-decoration: none; 
     width: 250px;
     text-align: center;
     background-color: #80A1D4;

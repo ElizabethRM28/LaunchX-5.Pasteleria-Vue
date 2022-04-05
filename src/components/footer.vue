@@ -1,6 +1,5 @@
 <template>
     <div>
-    <h1>Hola Elizabeth</h1>
     <footer>
         <hr>
         <p>Todos los derechos reservados</p>

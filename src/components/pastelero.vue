@@ -1,11 +1,11 @@
 <template>
     <section class="titulo">
-            <img src="img/logopasterely -chico.png" alt="">
+            <img src="../assets/logopasterely-chico.png" alt="">
         </section>
-        <section class="informacion">
-            <h1>Información del almacen de Paster-Ely</h1>
-            <br>
-        </section>
+    <section class="informacion">
+        <h1>Información del almacen de Paster-Ely</h1>
+        <br>
+    </section>
         <table class="panes">
             <tr>
                 <th>Sabores de pan   </th>
@@ -64,6 +64,7 @@
                 <td>10 piezas</td>
             </tr>
         </table>
+        <br>
         <table class="formulario">
             <tr>
                 <th>Nombre</th>
@@ -82,8 +83,14 @@
                 <td>Pan de choccolate, con galletas oreo y butter cream </td>
             </tr>
         </table>
+        <br>
 </template>
 
+<script>
+export default {
+  name: 'pasteleroCom'
+}
+</script>
 
 
 <style scoped>

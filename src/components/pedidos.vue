@@ -1,6 +1,6 @@
 <template>
     <section class="titulo">
-            <img src="img/logopasterely -chico.png" alt="">
+            <img src="../assets/logopasterely-chico.png" alt="">
         </section>
         <form action="" class="formulario">
             <label for="nombre" class="dato">Nombre</label>
@@ -33,8 +33,10 @@
             <textarea name="mensajeTxt" id="mensaje" placeholder="Descripción del pastel"></textarea>
             <br>
             <br>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Borrar">
+            <input type="submit" value="Enviar" class="button">
+            <br>
+            <br>
+            <input type="reset" value="Borrar" class="button">
             
         </form>
 
@@ -50,6 +52,17 @@ export default {
 <style scoped>
     .formulario {
     text-align: center;
+}
+input {
+    padding: 2px;
+    border-radius: 5px;
+    min-width: 60px;
+
+}
+.button{
+    margin-top: 12px;
+    border-radius: 20px;
+    padding: 5px;
 }
 
 footer {

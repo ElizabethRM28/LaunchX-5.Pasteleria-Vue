@@ -1,18 +1,19 @@
 <template>
-  <div class="home">
-    <infInicio/>
-    <footerCom/>
-  </div>
+    <div class="pastelero">
+        <pasteleroCom/>
+        <footerCom/>
+    </div>
 </template>
+
 <script>
 // import infInicio  from "../src/components/infInicio.vue";
-import infInicio from "@/components/infInicio.vue";
+import pasteleroCom from "@/components/pastelero.vue";
 import footerCom from "@/components/footer.vue";
 
 export default {
-  name: 'HomeView',
+  name: 'PasteleroView',
   components: {
-    infInicio,
+    pasteleroCom,
     footerCom
   }
 }
